@@ -24,7 +24,7 @@ body {
 	justify-content: center;
 	margin: 10px;
 	height: 500px;
-	width: 450px;
+	width: 600px;
 }
 
 .result img {
@@ -47,7 +47,7 @@ button {
 	font-size: 18px;
 	padding: 10px;
 	margin: 10px;
-	width: 450px;
+	width: 600px;
 }
 
 button:active {
@@ -56,4 +56,8 @@ button:active {
 
 button:focus {
 	outline: none
+}
+
+#cat-fact{
+    padding: 20px;
 }
