@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
-	background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 23.8%, rgb(255, 189, 189) 65% );
+	/* background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 23.8%, rgb(255, 189, 189) 65% ); */
+	background-color: pink;
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 100vh;
+	/* height: 100vh; */
 	margin: 0;
 }
 
@@ -15,6 +16,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+footer {
+	position: relative;
 }
 
 .result {
@@ -59,5 +64,11 @@ button:focus {
 }
 
 #cat-fact{
-    padding: 20px;
+    padding: 1.2em;
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
