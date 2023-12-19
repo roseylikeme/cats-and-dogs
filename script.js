@@ -5,10 +5,10 @@ const cat_fact = document.getElementById('cat-fact');
 cat_btn.addEventListener('click', getRandomCat);
 
 function getRandomCat() {
-	fetch('https://aws.random.cat/meow')
+	fetch('https://random.dog/woof.json')
 		.then(res => res.json())
 		.then(data => {
-			cat_result.innerHTML = `<img src=${data.file} alt="cat" />`
+			cat_result.innerHTML = `<img src=${data.url} alt="cat" />`
 		});
     fetch('https://catfact.ninja/fact')
         .then(res => res.json())
